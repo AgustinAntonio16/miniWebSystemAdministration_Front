@@ -1,12 +1,15 @@
-import { useState } from 'react'
-
+import MyCard from './components/MyCard'
+import MyForm from './components/MyForm'
+import MyNavbar from './components/MyNavbar'
+import Productos from './components/Productos'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      
+    <div className="">
+      <MyNavbar/>
+      <MyForm/>
+      <Productos/>
     </div>
   )
 }
